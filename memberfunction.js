@@ -2,16 +2,16 @@ function transform(line) {
 var values = line.split(',');
   if (values[0] == "Member_ID") return;
 var obj = new Object();
-obj.Member_ID = values[0];
+obj.Member_ID = parseInt(values[0],10);
 obj.First_Name = values[1];
 obj.Last_Name = values[2];
 obj.Gender = values[3];
-obj.Age = values[4];
+obj.Age = parseInt(values[4],10);
 obj.Height = values[5];
-obj.Weight = values[6];
-obj.Hours_Sleep = values[7];
-obj.Calories_Consumed = values[8];
-obj.Exercise_Calories_Burned = values[9];
+obj.Weight = parseInt(values[6],10);
+obj.Hours_Sleep = parseInt(values[7],10);
+obj.Calories_Consumed = parseInt(values[8],10);
+obj.Exercise_Calories_Burned = parseInt(values[9],10);
 obj.Date = Date.parse(values[10]);
 var jsonString = JSON.stringify(obj);
 
