@@ -33,6 +33,10 @@
       "type": "NUMERIC"
     },
     {
+     "name": "Calories_Consumed",
+      "type": "NUMERIC"
+    },
+    {
      "name": "Exercise_Calories_Burned",
       "type": "NUMERIC"
     },
