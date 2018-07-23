@@ -22,7 +22,7 @@
     },
     {
      "name": "Height",
-      "type": "NUMERIC"
+      "type": "STRING"
     },
     {
      "name": "Weight",
