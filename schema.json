@@ -1,0 +1,28 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "Gender",
+      "type": "STRING"
+    },
+    {
+      "name": "Min_Age",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "Max_Age",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "Sedentary",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "Moderately_Active",
+      "type": "NUMERIC"
+    },
+    {
+     "name": "Active",
+      "type": "NUMERIC"
+    }
+  ]
+}
