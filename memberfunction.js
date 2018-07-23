@@ -12,7 +12,8 @@ obj.Weight = parseInt(values[6],10);
 obj.Hours_Sleep = parseInt(values[7],10);
 obj.Calories_Consumed = parseInt(values[8],10);
 obj.Exercise_Calories_Burned = parseInt(values[9],10);
-obj.Date = Date.parse(values[10]);
+var parts = values[10].split("/");
+obj.Date = parts[2]+parts[0]+parts[1];
 var jsonString = JSON.stringify(obj);
 
 return jsonString;
