@@ -1,6 +1,6 @@
 function transform(line) {
 var values = line.split(',');
-  if (values[0] == "Member ID") return;
+  if (values[0] == "Member_ID") return;
 var obj = new Object();
 obj.Member_ID = values[0];
 obj.First_Name = values[1];
