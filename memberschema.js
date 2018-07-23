@@ -38,7 +38,7 @@
     },
     {
      "name": "Date",
-      "type": "NUMERIC"
+      "type": "DATE"
     }
   ]
 }
